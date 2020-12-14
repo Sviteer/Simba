@@ -1,0 +1,182 @@
+.navbar {
+  background-color: #dba12d;
+}
+
+.navbar ul li a {
+  color: #fff !important;
+  font-size: 15px;
+}
+
+.navbar ul li a:hover {
+  background-color: #fff !important;
+  color: #dba12d !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 20px;
+}
+
+
+/***** HOME *****/
+
+#home {
+  background: url("3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 680px;
+}
+
+.home-wrap {
+  padding-top: 140px;
+}
+
+.home-header {
+  font-family: 'Oswald';
+  font-size: 60px;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Oswald';
+  font-size: 40px;
+  color: #fff;
+}
+
+.home-line {
+  border: 0;
+  height: 3px;
+  width: 90%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 153, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.btn {
+  margin: 10px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #dba12d;
+  color: #fff;
+  border: none;
+  font-size: 25px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #dba12d;
+}
+
+
+/***** ABOUT *****/
+
+#about {
+  background-color:#dba12d;
+  color: #fff;
+  padding-bottom: 80px;
+}
+
+.about-wrap {
+  width: 60%;
+  margin: auto;
+  margin-top: 95px;
+}
+
+h1 {
+  font-family: 'Oswald';
+  text-align: center;
+}
+
+.line {
+  margin-top: 30px;
+  width: 50%;
+  height: 2px;
+  background-color: orange;
+  border: none;
+}
+
+.about-text {
+  font-size: 23px;
+  font-family: 'PT Serif', serif;
+  text-align: justify;
+}
+
+.camp-link {
+  color: #fff;
+}
+
+.skills-list li {
+  font-size: 18px;
+  list-style-position: inside;
+  text-align: justify;
+  margin-left: 40px;
+}
+
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #EEDFCC;
+}
+
+.portfolio-header {
+  color: #000;
+}
+
+.placeholder-item {
+  margin-top: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.placeholder-desc {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #000;
+}
+
+img {
+  border: 1px solid orange;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.divider {
+  background-color:#dba12d;
+  height: 3px;
+}
+
+
+
+/***** FOOTER *****/
+
+footer {
+  background-color:#dba12d;
+  height: 40px;
+}
+
+.footer-menu {
+  margin-left: -30px;
+}
+
+.footer-menu li {
+  display: inline;
+  margin: 10px;
+}
+
+.footer-menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-text {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .skills-list li {
+    font-size: 15px;
+  }
+}
